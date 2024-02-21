@@ -19,3 +19,4 @@ Route::get('/', function () {
 });
 Route::get('/lot', [CrawlController::class, 'lotsView']);
 Route::get('/related', [CrawlController::class, 'related']);
+Route::get('/care', [CrawlController::class, 'care']);
